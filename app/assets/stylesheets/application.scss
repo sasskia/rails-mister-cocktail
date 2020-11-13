@@ -11,3 +11,21 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+h1 {
+  font-family: 'Kalam', cursive;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: 'Marck Script', cursive;
+}
+
+h5 {
+  font-family: 'Marck Script', cursive;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}

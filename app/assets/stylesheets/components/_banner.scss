@@ -1,0 +1,35 @@
+.home-banner {
+  height: 200px;
+  padding: 50px 0px;
+}
+
+.home-banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.home-banner p {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.home-btn {
+  border: 2px solid white;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border-shadow: 1px 1px 40px 20px #fff;
+}
+
+.home-btn:hover {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 40px 20px #0ff;
+}
