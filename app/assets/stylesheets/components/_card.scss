@@ -9,3 +9,17 @@
   color: white;
   border-radius: 5px;
 }
+
+.card-btn {
+  display: block;
+  text-align: center;
+  color: #0BF1CD;
+  transition: 0.3s;
+}
+
+.card-btn:hover {
+  text-decoration: none;
+  animation: glow;
+  color: #0BF1CD;
+  text-shadow: 1px 1px 8px #0BF1CD;
+}

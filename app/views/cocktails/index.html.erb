@@ -1,8 +1,15 @@
+<div class="home-banner">
+  <h1>MR. COCKTAIL</h1>
+  <p>Make your own cocktail</p>
+  <div class="d-flex justify-content-center">
+    <%= link_to 'New Cocktail', new_cocktail_path, class: "home-btn" %>
+  </div>
+</div>
 <div class="cards mt-5">
   <% @cocktails.each do |cocktail| %>
     <div class="card align-items-center">
       <div class="card-body justify-content-center">
-        <h5 class="card-title"><%= cocktail.name %></h5>
+        <h5 class="card-title"><i class="fas fa-cocktail"></i> <%= cocktail.name %> <i class="fas fa-cocktail"></i></h5>
         <%= link_to "See details", cocktail_path(cocktail), class: "card-btn"%>
       </div>
     </div>

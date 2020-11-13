@@ -6,7 +6,7 @@
 .home-banner h1 {
   margin: 0;
   color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
   text-align: center;
 }
 
@@ -14,7 +14,7 @@
   font-size: 20px;
   text-align: center;
   color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
 }
 
 .home-btn {
@@ -25,11 +25,13 @@
   padding: 15px 20px;
   border-radius: 5px;
   display: inline-block;
-  border-shadow: 1px 1px 40px 20px #fff;
+  transition: 0.3s;
 }
 
 .home-btn:hover {
   text-decoration: none;
   color: white;
-  text-shadow: 1px 1px 40px 20px #0ff;
+  border: 2px solid #04EFF5;
+  color: #04EFF5;
+  text-shadow: 1px 1px 8px #04EFF5;
 }
