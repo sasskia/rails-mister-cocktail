@@ -15,8 +15,26 @@
   <body style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(
       https://images.unsplash.com/photo-1503642551022-c011aafb3c88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
     );">
+    <div class="navbar navbar-expand-sm navbar-lewagon">
+      <a class="navbar-brand" href="/cocktails">
+        <img src="https://images.vexels.com/media/users/3/144120/isolated/preview/4eff3df3a5d6f917f98ba7917ee40011-neon-cocktails-sign-by-vexels.png" width="85" height="85" />
+      </a>
+      <a class="nav-link" href="/cocktails/new"><p>New Cocktail</p></a>
+    </div>
+
     <div class="container">
       <%= yield %>
+    </div>
+
+    <div class="footer">
+      <div class="footer-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="footer-copyright">
+        This footer is made with <i class="fas fa-heart"></i> at Le Wagon
+      </div>
     </div>
   </body>
 </html>

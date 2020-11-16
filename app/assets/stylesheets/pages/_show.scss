@@ -1,0 +1,42 @@
+.drink-card {
+  background-color: #1B1A3E;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #4A46A9;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.drink-card h2 {
+  font-family: 'Marck Script', cursive;
+  letter-spacing: 0;
+  border-bottom: 1px solid white;
+  padding: 20px 0;
+}
+
+.drink-card li {
+  color: white;
+  margin: 20px 0;
+}
+
+.drink-card .far {
+  color: #F71E77;
+  transition: 0.3s;
+}
+
+.drink-card .far:hover {
+  text-shadow: 1px 1px 3px #F71E77;
+}
+
+.drink-card .drink-btn {
+  display: block;
+  text-align: right;
+  color: #0BF1CD;
+  transition: 0.3s;
+}
+
+.drink-btn:hover {
+  text-decoration: none;
+  color: #0BF1CD;
+  text-shadow: 1px 1px 8px #0BF1CD;
+}

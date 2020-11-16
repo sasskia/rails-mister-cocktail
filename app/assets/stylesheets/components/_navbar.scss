@@ -1,12 +1,30 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  width: 100%; /* Full width */
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar-lewagon .nav-link {
+  border: 2px solid white;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: 0.3s;
+  p {
+    margin: 0;
+    transition: 0.3s;
+  }
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-lewagon .nav-link:hover {
+  text-decoration: none;
+  border: 2px solid #04EFF5;
+  p {
+    color: #04EFF5;
+    text-shadow: 1px 1px 8px #04EFF5;
+  }
 }
